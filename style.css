@@ -1,0 +1,216 @@
+body {
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+.hide {
+    visibility: hidden;
+    display: none;
+}
+
+header{ 
+    display: grid;
+    grid-template-columns: 125px 1fr;
+}
+
+#myName{
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    padding-top: 15px;
+}
+#title {
+    background-color: #b3b3b3;
+}
+nav a {
+    display: grid;
+    text-decoration: none;
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem 0;
+  background-color: #f2f2f2;
+  color: black;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 0.25rem;
+}
+
+nav a:hover {
+    background-color: #3d5c5c;
+    color: white;
+}
+ul li{
+    list-style: none;
+    
+}
+nav ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 70px;
+    padding-right: 250px;
+    padding-left: 250px;
+}
+#about {
+    padding-bottom: 130px;
+}
+#about img{
+margin-left: 220px;
+margin-top: 35px;
+float: left;
+box-shadow: 10px 10px 5px #333333;
+}
+#about p {
+    padding-left: 400px;
+    padding-right: 150px;
+    font-size: 25px;
+    padding-top: 35px;
+}
+
+#about button{
+    padding: 10px;
+    margin-left: 40px;
+    background-color: #FF9B63;
+}
+#portfolio{
+    padding-top: 20px;
+    background-color: #D9D9D9;
+    padding-bottom: 20px;
+}
+
+#portfolio p {
+    text-align: center;
+    font-size: 25px;
+}
+
+#portfolio figure {
+	display: inline-block;
+	width: 235px;
+}
+
+#portfolio img {
+	width: 250px;
+	display: inline-block;
+}
+figure {
+	padding: 10px;
+    padding-left: 280px;
+}
+
+#portfolio figcaption {
+    text-align: center;
+    font-size: 20px;
+}
+#contact p{
+    text-align: center;
+    font-size: 21px;
+}
+
+#contact{
+    padding-bottom: 20px;
+}
+form{
+	display: block;
+	width: 300px;
+	padding: 1em;
+	margin: 0 auto;
+	color: #222;
+	font-size: 1.1em;
+}
+
+input, label, fieldset{
+	display: block;
+	width: 95%;
+}
+
+.required{
+  display: inline-block;
+  color: #DE0B63;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+label{
+	padding-left: 0.5em;
+	margin: 0.75em 0 0.25em 0;
+}
+
+input{
+	font-size: 1em;
+	padding: 0.25em 0.5em;
+	border: 1px solid #222;
+	height: 1.5em;
+}
+
+fieldset{
+	border: 1px solid #222;
+	padding: 0.5em 0 1em 0.5em;
+	margin: 0.75em 0 0.25em 0;
+	width: 98%;
+	display: grid;
+	grid-template-columns: 1fr 3fr 1fr 3fr;
+}
+
+input[type=submit]{
+	padding: 0.75em;
+	width: 35%;
+	height: auto;
+	margin-left: 40%;
+	color: black;
+	background-color: #2EFF9B;
+	border: none;
+	font-family: serif;
+}
+
+textarea{
+	width: 100%;
+	height: 5em;
+	margin-bottom: 1em;
+}
+
+input:focus, textarea:focus{
+	border-color: blue;
+	box-shadow: 0 0 0 3px rgba(34, 34, 34, 0.3);
+	border-radius: 4px;
+}
+
+input:error, textarea:error{
+	border-color: #DE0B63;
+}
+
+footer{
+    padding-top: 10px;
+    background-color: #D9D9D9;
+    padding-bottom: 10px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#samples p{
+    text-align: center;
+    font-size: 21px;
+}
+#samples button{
+    width: 40%;
+    height: 40px;
+    background-color: #FF9B63;
+}
+#b{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding-left: 150px;
+    padding-top: 10px;
+}
+#samples h3{
+    padding-top: 50px;
+}
+#b2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    padding-left: 300px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}

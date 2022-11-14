@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Mark Ramirez">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="robots" content="index,follow">
+        <title>Mark Ramirez</title>
+        <link rel="icon" type="image/png" sizes="32x32" href="logo.png">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img src="logo.png" width="100">
+            <p id="myName">Mark Ramirez</p>
+        </header>
+        <main>
+            <section id="title">
+                <h1>Mark Ramirez website</h1>
+                <nav>
+                    <h2 class="hide">main navigation</h2>
+                    <ul>
+                        <a href="index.html"><li>Home</li></a>
+                        <a href="index.html#about"><li>About</li></a>
+                        <a href="portfolio.html"><li>Portfolio</li></a>
+                        <a href="index.html#contact"><li>Contact</li></a>
+                    </ul>
+                </nav>
+            </section>
+            <section id="about">
+                <h2>About Me</h2>
+                <img src="images/me.jpg" width="140">
+                <p>Hello there, I am Mark Ramirez. I have been working on Web
+                    designing since 2016 and graphic design since 2019. I have expireience
+                    on developing webpages and graphic designing such as,
+                    web banner and edit photos.
+                    <br>Also, feel free to check out my resume below.</p>
+                <a href="https://www.public.asu.edu/~mrrami22/GIT413/module5/Resume.pdf" target="_blank"><button>View Resume</button></a>
+            </section>
+            
+            <section id="portfolio">
+                <h2>Portfolio</h2>
+                <p>I have developed few websites and graphic design
+                    <br>Check out my sample work</p>
+                    <figure>
+                        <a href="portfolio.html"><img src="images/graphic.jpg" width="250"></a>
+                        <a href="portfolio.html"><figcaption>Graphic Design</figcaption></a>
+                    </figure>
+                    <figure>
+                        <a href="portfolio.html"><img src="images/web.jpg" width="250"></a>
+                        <a href="portfolio.html"><figcaption>Web Design</figcaption></a>
+                    </figure>     
+            </section>
+
+            <section id="contact">
+                <h2>Contact</h2>
+                <p>Please fill out this form and I’ll connect with you soon.</p>
+                <form>
+                    <label for="name">Full Name<span class="required">*</span></label>
+                    <input id="name" type="text" name="name">
+                    
+                    
+                    <label for="emailA">Email<span class="required">*</span></label>
+                    <input id="emailA" type="text" name="emailA">
+                    
+                    <label for="phoneN">Phone<span class="required">*</span></label>
+                    <input id="phoneN" type="number" name="phoneN">
+                        
+                    <fieldset>
+                        <legend>Preferred Contact Method<span class="required">*</span></legend>
+                        <input id="phone" type="radio" name="contact" value="phone">
+                        <label for="phone">Phone</label>
+                        <input id="email" type="radio" name="contact" value="email">
+                        <label for="email">Email</label>
+                    </fieldset>
+                    
+                    <label for="message">Message<span class="required">*</span></label>
+                        <textarea id="message"></textarea>
+                    
+                    <input type="submit" name="submit" value="Submit">
+                </form>
+            </section>
+        </main>
+        <footer>
+            <img src="images/socials.png" width="100">
+            <p>Copyright &copy; 2022 Mark Ramirez</p>
+        </footer>
+    </body>
+</html>
